@@ -163,25 +163,22 @@ public class DomainFactoryImpl extends EFactoryImpl implements DomainFactory {
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
      *
-     * @generated NOT
+     * @generated
      */
     @Override
     public Attribute createAttribute() {
         AttributeImpl attribute = new AttributeImpl();
-        attribute.setName("newAttribute"); //$NON-NLS-1$
         return attribute;
     }
 
     /**
      * <!-- begin-user-doc --> <!-- end-user-doc -->
      *
-     * @generated NOT
+     * @generated
      */
     @Override
     public Relation createRelation() {
         RelationImpl relation = new RelationImpl();
-        relation.setOptional(true);
-        relation.setName("newRelation"); //$NON-NLS-1$
         return relation;
     }
 
